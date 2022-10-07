@@ -7,7 +7,7 @@
 Run the sxlogs script on the Icecast logs dir
 
 ```
-bash /home/fox/sxlog.sh /mnt/storage/logs/icecast/access.log.202209*
+bash sxlog.sh /mnt/storage/logs/icecast/access.log.202209*
 ```
 
 That will parse the log and generate separate log files for each stream and each day.
