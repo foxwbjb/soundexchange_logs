@@ -25,7 +25,7 @@ else
 	DATE6=$(/usr/bin/date --date="${MONTH} ${STARTDAY} ${YEAR} +5 days" +%Y-%b-%d)
 	DATE7=$(/usr/bin/date --date="${MONTH} ${STARTDAY} ${YEAR} +6 days" +%Y-%b-%d)
 	
-	OUTFILE=/mnt/storage/logs/sxlogs/${STREAM}_${YEAR}-${MONTH}-${STARTDAY}_SX.txt
+	OUTFILE=/mnt/storage/logs/sxlogs/SX/${STREAM}_${YEAR}-${MONTH}-${STARTDAY}_SX.txt
 
 	/usr/bin/cat ${DIRNAME}/${STREAM}_${DATE1}.txt \
 			${DIRNAME}/${STREAM}_${DATE2}.txt \
